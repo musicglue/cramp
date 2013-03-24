@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_dependency('activesupport',   '~> 4.0.0.beta1')
   s.add_dependency('rack',            '~> 1.5.2')
   s.add_dependency('eventmachine-le',    '~> 1.1.4')
-  s.add_dependency('faye-websocket',  '~> 0.3.0')
+  s.add_dependency('faye-websocket',  '~> 0.4.7')
   s.add_dependency('thor',            '~> 0.17.0')
 
   s.files = Dir['README', 'MIT-LICENSE', 'lib/**/*', 'bin/**/*']
